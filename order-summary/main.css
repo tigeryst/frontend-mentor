@@ -1,0 +1,109 @@
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  height: 100vh;
+  background-image: url("images/pattern-background-mobile.svg");
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.bg-light {
+  background: hsl(225, 100%, 98%);
+}
+
+.bg-white {
+  background: white;
+}
+
+.plan-select {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+.plan-select a {
+  margin-left: auto;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.bold-link {
+  font-weight: 900px;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.card-body {
+  display: block;
+  padding: 50px 50px 50px 50px;
+}
+
+.text-muted {
+  color: hsl(224, 23%, 55%);
+}
+
+h1 {
+  margin: 0;
+  font-weight: 900;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+a.button {
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  box-shadow: 0px 8px 15px hsl(245, 75%, 52%);
+}
+
+.none {
+  color: hsl(225, 100%, 94%);
+  color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  color: hsl(223, 47%, 23%);
+}
